@@ -1,3 +1,3 @@
 # Canteen
 
-## An application to simplyfy canteen purchases
+## An application to simplify canteen purchases
