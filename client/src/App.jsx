@@ -6,6 +6,7 @@ import { Menu } from "./pages/Menu";
 import { Cart } from "./pages/Cart";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -13,14 +14,14 @@ function App() {
       <div className="bg-white">
         <Navbar />
         <Routes>
-          <Route path="/"/>
+          <Route path="/" element={<Home />}/>
           <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
-        <Home />
+        <Footer />
       </div>
     </>
   );

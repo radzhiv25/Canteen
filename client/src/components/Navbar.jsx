@@ -20,10 +20,10 @@ export default function Navbar() {
         <li>
         <Link to="/cart">cart</Link>
         </li>
-        <li className="bg-black text-white rounded-md p-2 px-5">
+        <li className="bg-black hover:bg-slate-700 text-white rounded-md p-2 px-5 cursor-pointer">
           <Link to='/login' >login</Link>
         </li>
-        <li className="border border-black rounded-md p-2 px-5">
+        <li className="border border-black rounded-md p-2 px-5 hover:text-white hover:bg-gray-700 cursor-pointer">
           <Link to='/signup' >sign up</Link>
         </li>
       </ul>
