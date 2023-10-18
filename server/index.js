@@ -31,7 +31,7 @@ app.post('/login', async(req, res) => {
     const user = await UserModel.findUserByEmail(email);
     // console.log(user)
     if(user){
-        console.log(user.password, user.email, password)
+        // console.log(user.password, user.email, password)
         if(user.password === password){
             res.json("Success");
         }
