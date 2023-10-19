@@ -18,14 +18,14 @@ export const Signup = () => {
   }
   
   return (
-    <div className="h-screen md:w-3/4 my-20 md:mx-auto mx-5">
-      <div className="flex md:flex-row flex-col mx-5">
+    <div className="h-screen md:w-3/4 md:mx-auto mx-5">
+      <div className="flex md:flex-row flex-col my-10 mx-5">
         <img
           src={SignUpImg}
           alt=""
-          className="md:w-1/2 rounded-l"
+          className="md:w-1/2 md:rounded-l rounded-t"
         />
-        <form onSubmit = {handleSubmit} className="md:p-10 p-3 flex flex-col items-center md:w-1/2 border rounded-r space-y-5">
+        <form onSubmit = {handleSubmit} className="md:p-10 p-3 flex flex-col items-center md:w-1/2 border md:rounded-r rounded-b space-y-5 bg-white">
           <div className="md:w-2/3 w-full">
             <label htmlFor="" className="text-black font-bold">
               Enrollment

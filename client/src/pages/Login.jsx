@@ -2,8 +2,8 @@
 import LoginImg from '../assets/LoginImg.jpg'
 export const Login = () => {
   return (
-    <div className="h-screen md:w-3/4 my-20 md:mx-auto mx-5">
-      <div className="flex md:flex-row flex-col mx-5">
+    <div className="h-screen md:w-3/4 md:mx-auto mx-5">
+      <div className="flex md:flex-row flex-col my-10 mx-5">
         <img
           src={LoginImg}
           alt=""
