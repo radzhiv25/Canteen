@@ -15,4 +15,4 @@ async function findUserByEmail(email){
     return User.findOne({email}).exec()
 }
 
-module.exports = {User}
+module.exports = {User, findUserByEmail}
