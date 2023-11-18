@@ -16,6 +16,9 @@ export default function Home() {
         <br />
         simplifying your canteen experience by ordering through your fingertips
       </h1>
+      <section>
+        
+      </section>
     </div>
   );
 }

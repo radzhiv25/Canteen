@@ -4,9 +4,15 @@ import { FoodCard } from "../components/FoodCard"
 
 export const Menu = () => {
   return (
-    <div className='text-gray-600 h-screen'>
-        <h1 className='text-center relative top-[calc(100%-50%)] font-bold'>Menu under construction 🚧</h1>
-        <FoodCard title='Burger' />
+    <div className='text-black h-screen'>
+      <div className="mt-16 grid grid-cols-4 w-2/3 mx-auto gap-5">
+        <FoodCard title='Burger' price='40' />
+        <FoodCard title='Burger' price='40' />
+        <FoodCard title='Burger' price='40' />
+        <FoodCard title='Burger' price='40' />
+        <FoodCard title='Burger' price='40' />
+        <FoodCard title='Burger' price='40' />
+      </div>
     </div>
   )
 }
