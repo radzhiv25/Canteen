@@ -1,0 +1,7 @@
+1. USERS
+    CREATE TABLE users (id int PRIMARY KEY,
+                        name VARCHAR(30) NOT NULL,
+                        email VARCHAR(30) NOT NULL UNIQUE,
+                        phone VARCHAR(12) NOT NULL,
+                        password VARCHAR(30) NOT NULL,
+                        role int NOT NULL);

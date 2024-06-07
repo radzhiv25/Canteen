@@ -14,23 +14,22 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//import com.entity.*;
+import com.entity.*;
 import com.service.CanteenService;
-//import com.sun.org.glassfish.external.statistics.Statistic;
 
 @CrossOrigin
 @RestController
 public class CanteenController {
 
 	@Autowired
-	CanteenService lservice;
+	CanteenService service;
 
 	// DISPLAY LISTS
 
 	// DISPLY USERS
-//	@GetMapping("/List_User")
-//	public List<Users> List_user(ModelMap user_model) {
-//		List<Users> user_list = lservice.getUsers();
-//		return user_list;
-//	}
+	@GetMapping("/List_User")
+	public List<Users> List_user(ModelMap user_model) {
+		List<Users> user_list = service.getUsers();
+		return user_list;
+	}
 }
