@@ -6,8 +6,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-
-//import com.entity.Users;
+import com.entity.Users;
 import com.mapper.CanteenMapper;
 
 
@@ -20,8 +19,8 @@ public class CanteenDaoImpl implements CanteenDao{
 	@Autowired
 	private CanteenMapper mapper;	
 	
-//	@Override
-//	public List<Users> getUsers() {
-//		return mapper.getUsers();
-//	}
+	@Override
+	public List<Users> getUsers() {
+		return mapper.getUsers();
+	}
 }
